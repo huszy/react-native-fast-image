@@ -23,7 +23,6 @@
     "module": "dist/index.js",
     "typings": "dist/index.d.ts",
     "source": "src/index",
-    "react-native": "src/index",
     "files": [
         "android",
         "!android/build",

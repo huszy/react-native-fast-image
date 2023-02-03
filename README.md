@@ -2,6 +2,23 @@
   🚩 FastImage
 </h1>
 
+!!! WARNING
+
+This repository is a fork of the original [FastImage](https://github.com/DylanVann/react-native-fast-image), it's based on version 8.6.3 and includes the following PR-s:
+
+- [Ios Crash Fix - SDWebImage depencendy update](https://github.com/DylanVann/react-native-fast-image/pull/932) 
+- [Revert CENTER_INSIDE resizeMode](https://github.com/DylanVann/react-native-fast-image/pull/868)
+- [Null Pointer Exception fixed in Fast Image Source](https://github.com/DylanVann/react-native-fast-image/pull/851)
+- [fix: Android onLoad event when view width and height are zero](https://github.com/DylanVann/react-native-fast-image/pull/953)
+
+There are no packages published to npm with a different name, instead, tgz releases are created, which can be installed with the following command:
+
+`yarn add "https://github.com/huszy/react-native-fast-image/blob/main/releases/react-native-fast-image-8.6.3-fr1.tgz?raw=true"`
+
+
+# Original README
+
+
 <div align="center">
 
 Performant React Native image component.
