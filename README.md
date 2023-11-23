@@ -17,7 +17,7 @@ This repository is a fork of the original [FastImage](https://github.com/DylanVa
 
 There are no packages published to npm with a different name, instead, tgz releases are created, which can be installed with the following command:
 
-`yarn add "https://github.com/huszy/react-native-fast-image/blob/main/releases/react-native-fast-image-8.6.3-fr1.tgz?raw=true"`
+`yarn add "https://github.com/huszy/react-native-fast-image/blob/main/releases/react-native-fast-image-8.6.3-fr5.tgz?raw=true"`
 
 
 # Original README

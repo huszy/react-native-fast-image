@@ -194,8 +194,10 @@
         }
 
         if (self.onFastImageLoadStart) {
-            self.onFastImageLoadStart(@{});
-            self.hasSentOnLoadStart = YES;
+            if (!self.hasSentOnLoadStart) {
+                self.onFastImageLoadStart(@{});
+                self.hasSentOnLoadStart = YES;
+            }
         } else {
             self.hasSentOnLoadStart = NO;
         }
@@ -244,6 +246,11 @@
 }
 
 - (void) dealloc {
+    _onFastImageLoad = nil;
+    _onFastImageProgress = nil;
+    _onFastImageError = nil;
+    _onFastImageLoadEnd = nil;
+    _onFastImageLoadStart = nil;
     [self sd_cancelCurrentImageLoad];
 }
 
