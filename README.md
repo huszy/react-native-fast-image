@@ -10,6 +10,10 @@ This repository is a fork of the original [FastImage](https://github.com/DylanVa
 - [Revert CENTER_INSIDE resizeMode](https://github.com/DylanVann/react-native-fast-image/pull/868)
 - [Null Pointer Exception fixed in Fast Image Source](https://github.com/DylanVann/react-native-fast-image/pull/851)
 - [fix: Android onLoad event when view width and height are zero](https://github.com/DylanVann/react-native-fast-image/pull/953)
+- [Handle undefined callbacks in setters on iOS native module](https://github.com/DylanVann/react-native-fast-image/pull/1015)
+- [Fix : Fixed crash for iOS 17](https://github.com/DylanVann/react-native-fast-image/pull/1012)
+
+
 
 There are no packages published to npm with a different name, instead, tgz releases are created, which can be installed with the following command:
 
